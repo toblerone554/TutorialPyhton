@@ -1,0 +1,18 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+# Ejemplo de elif
+
+variable = 5
+
+if variable >6:
+
+    print "Es mayor que 6"
+
+elif variable <6:
+
+    print "Es menor que 5"
+    
+else:
+
+	print "Dime algo"

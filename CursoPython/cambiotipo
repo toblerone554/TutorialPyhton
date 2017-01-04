@@ -1,0 +1,22 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+# Esto es un entero
+
+entero = 2000
+
+decimal = 2.1
+
+# Convertimos el entero a una cadena
+
+cadena = str(entero)
+
+decimal2 = int(decimal)
+
+print type(entero)
+
+print type(cadena)
+
+print cadena
+
+print decimal2

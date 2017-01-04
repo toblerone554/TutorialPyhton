@@ -1,0 +1,17 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+# Ejemplo de if 
+
+variable = 1
+
+if variable > 2:
+
+    print "Es verdad"
+
+
+else:
+
+    print "No es verdad"
+
+

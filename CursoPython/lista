@@ -1,0 +1,11 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+
+lista = ["hola","mundo",1]
+
+print lista
+
+print "De otra manera"
+
+print (lista)

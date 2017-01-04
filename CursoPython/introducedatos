@@ -1,0 +1,9 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+
+edad = input('Introduzca su edad ')
+
+print "Su edad es " + str(edad)
+
+

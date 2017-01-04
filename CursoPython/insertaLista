@@ -1,0 +1,12 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+lista = [1,2,4]
+
+print lista
+
+print "Elemento detras del 2, poner un 3"
+
+lista[2]=3
+
+print lista

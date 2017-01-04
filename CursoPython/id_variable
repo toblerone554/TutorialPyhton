@@ -1,0 +1,38 @@
+#/usr/bin/python
+# -*- coding: utf-8 -*-
+
+# Ejemplo de variables e IDs
+
+# asignamos un valor a una variable:
+
+primera_variable = 5
+
+# copiamos ese valor en otra:
+
+segunda_variable = primera_variable
+
+# vamos a ver los id de cada una:
+
+print "ANTES"
+print "ID de la primera variable:"
+print id(primera_variable)
+
+print "ID de la segunda variable:"
+print id(segunda_variable)
+# como vemos, son el mismo.
+
+# modificamos la segunda:
+
+segunda_variable = segunda_variable + 1
+
+# Y volvemos a ver los id:
+
+print "DESPUES"
+
+print "ID de la primera variable:"
+print id(primera_variable)
+
+print "ID de la segunda variable:"
+print id(segunda_variable)
+
+# como vemos, la segunda ha cambiado

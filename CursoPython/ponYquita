@@ -1,0 +1,18 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+lista = [1,2,3,"cuatro"]
+
+lista.append(5)
+
+print "Ahora imprime la lista con un nuevo elemento 5" 
+
+print lista
+
+borrado = lista.pop(0)
+
+print "Borra el elemento que deseemos borrar"
+
+print lista
+
+print "El elemento borrado con indice 0 es " + str(borrado)

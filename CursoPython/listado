@@ -1,0 +1,13 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+lista = [1,"dos",3,"cuatro",["a","b"]]
+
+print(lista[0])
+
+print (lista[3])
+
+print (lista[4][0])
+
+print "El primer valor desde atras" + str(lista[-5])
+

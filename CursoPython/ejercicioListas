@@ -1,0 +1,18 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+print "Vamos a insertar en una lista 4 elementos y luego nos lo mostrara"
+
+lista=[]
+
+valor1=raw_input("Primer Elemento")
+valor2=raw_input("Segundo Elemento")
+valor3=raw_input("Tercer Elemento")
+valor4=raw_input("Cuarto Elemento")
+
+lista.insert(0,valor1)
+lista.insert(1,valor2)
+lista.insert(2,valor3)
+lista.insert(3,valor4)
+
+print lista

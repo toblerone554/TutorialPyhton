@@ -1,0 +1,15 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+entero= 1
+
+decimal = 1.5
+
+cadena = "mi cadena"
+
+print type(entero)
+
+
+print type(cadena)
+
+
